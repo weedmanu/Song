@@ -1,0 +1,24 @@
+{
+  "name": "Song",
+  "keywords": "Song, tone, music",
+  "description": "quicly adding song in a programm.",
+  "homepage": "https://github.com/weedmanu/Song/library.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weedmanu/Song.git"
+  },
+  "version": "6.20.0",
+  "authors": {
+    "name": "Emmanuel Biglia",
+    "url": "TutoElectroWeb.free.fr"
+  },
+  "exclude": [
+    ".github",
+    "extras"
+  ],
+  "frameworks": "*",
+  "platforms": "*",
+  "build": {
+    "libArchive": false
+  }
+}
