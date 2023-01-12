@@ -1,6 +1,5 @@
-#include <Arduino.h>
-#include "notes.h"
-#include "song.h"  
+#include "Arduino.h" 
+#include "Song.h"  
 
 // la fonction qui joue les chansons
 void beep( int Buzzer, int note, int duree ) {              // fonction beep
