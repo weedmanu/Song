@@ -1,6 +1,8 @@
 #include "Arduino.h" 
+#include "Notes.h" 
 #include "Song.h"  
 
+                          
 // la fonction qui joue les chansons
 void beep( int Buzzer, int note, int duree ) {              // fonction beep
     tone(Buzzer, note, duree);                              // joue la note 
@@ -8,6 +10,8 @@ void beep( int Buzzer, int note, int duree ) {              // fonction beep
     noTone(Buzzer); 
     delay(50);
 }
+
+
 
 ////////////////////////// Les chansons ////////////////////////
 
@@ -1178,3 +1182,6 @@ void Bond(int piezzo) {
   beep(piezzo, NOTE_FS6, 187);
   beep(piezzo, NOTE_GS6, 1125);
 }
+
+
+
