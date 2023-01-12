@@ -1,2 +1,2 @@
 # Song
-librairie platformIO
+librairie compatible Arduino, ESP8266, ESP32.
