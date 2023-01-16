@@ -1,19 +1,16 @@
 #include <Song.h>
 
-// Use the built-in LED
 #define Buzzer_pin 15
 
-// Create a Led object
-// This will set the pin to OUTPUT
+// On crée notre objet chansons sur le modèle Song
 Song chansons(Buzzer_pin);
 
 // tableau choix 
-int choix []= {'A','B','C','D'};
+int choix []= {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q'};
 
 // tableau des noms des chansons
-String Nom_des_chansons []= {"Starwars","GameOfThrones","HappyBirthday","Alerte"};
-
-
+String Nom_des_chansons []= {"Starwars","GameOfThrones","HappyBirthday","HarryPotter","Pirate","mario","McGyver","StarWars2","BonBruteTruand",
+                             "IndianaJones","twentyCentFox","looney","Entertainement","BarbieGirl","Greensleaves","Bond","Alerte"};
 
 void setup() {
   // On démmarre la com série à 115200 bauds
@@ -26,7 +23,20 @@ void setup() {
   Serial.println ("A - Star Wars coté obscure");
   Serial.println ("B - Game Of Thrones");
   Serial.println ("C - Happy Birthday");
-  Serial.println ("D - Alerte");   
+  Serial.println ("D - Harry Potter");
+  Serial.println ("E - Pirate des Caraïbes");
+  Serial.println ("F - Mario");
+  Serial.println ("G - Mc Gyver");
+  Serial.println ("H - Star Wars coté force");
+  Serial.println ("I - le Bon, la Brute et le Truand");
+  Serial.println ("J - IndianaJones"); 
+  Serial.println ("K - 20thCentFox");      
+  Serial.println ("L - Looney Toons");
+  Serial.println ("M - Entertainement");
+  Serial.println ("N - BarbieGirl"); 
+  Serial.println ("O - Greensleaves");
+  Serial.println ("P - James Bond");
+  Serial.println ("Q - Alerte");   
   Serial.println ("*************************************");
   Serial.println ("");
   Serial.println ("quelle chanson voulez-vous entendre ?");
@@ -51,9 +61,24 @@ void loop() {
         Serial.println(Nom_des_chansons[i]);
       }        
     }
-    if (message == choix[0]) { chansons.Starwars(); }
-    else if (message == choix[1]) { chansons.GameOfThrones(); }
-    else if (message == choix[2]) { chansons.HappyBirthday(); }
-    else if (message == choix[3]) { chansons.Alerte(); }    
+    if      (message == choix[0])  { chansons.Starwars(); }
+    else if (message == choix[1])  { chansons.GameOfThrones(); }
+    else if (message == choix[2])  { chansons.HappyBirthday(); }
+    else if (message == choix[3])  { chansons.HarryPotter(); }
+    else if (message == choix[4])  { chansons.Pirate(); }
+    else if (message == choix[5])  { chansons.mario(); }
+    else if (message == choix[6])  { chansons.McGyver(); }
+    else if (message == choix[7])  { chansons.StarWars2(); }
+    else if (message == choix[8])  { chansons.BonBruteTruand(); }
+    else if (message == choix[9])  { chansons.IndianaJones(); }
+    else if (message == choix[10]) { chansons.twentyCentFox(); }
+    else if (message == choix[11]) { chansons.looney(); }
+    else if (message == choix[12]) { chansons.Entertainement(); }
+    else if (message == choix[13]) { chansons.BarbieGirl(); }
+    else if (message == choix[14]) { chansons.HappyBirthday(); }
+    else if (message == choix[15]) { chansons.Greensleaves(); }
+    else if (message == choix[15]) { chansons.Bond(); }
+    else if (message == choix[17]) { chansons.Alerte(); }    
+    else Serial.println("Ce n'est pas un choix valide !!!");
   }
 }
