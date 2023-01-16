@@ -27,6 +27,9 @@ class Song {
     void BarbieGirl(); 
     void Greensleaves(); 
     void Bond();    
+    void JingleBell();  
+    void MerryChristmas();  
+    void SantaClaus();  
 };
 
 #endif::
