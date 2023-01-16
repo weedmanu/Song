@@ -1,5 +1,5 @@
-#ifndef BRUM_H
-#define BRUM_H
+#ifndef SONG_H
+#define SONG_H
 
 #include <Arduino.h>
 #include "Notes.h"
@@ -29,6 +29,4 @@ class Song {
     void Bond();    
 };
 
- 
- 
 #endif::
