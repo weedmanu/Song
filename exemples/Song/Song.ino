@@ -78,6 +78,5 @@ void loop() {
     else if (message == choix[14]) { chansons.Greensleaves(); }
     else if (message == choix[15]) { chansons.Bond(); }
     else if (message == choix[16]) { chansons.Alerte(); }    
-    else Serial.println("Ce n'est pas un choix valide !!!");
   }
 }
