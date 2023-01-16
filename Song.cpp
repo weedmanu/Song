@@ -8,7 +8,7 @@ Song::Song(int pin) {
 
 
 // la fonction qui joue les chansons
-void Song::Song::beep( int note, int duree ) {                   
+void Song::beep( int note, int duree ) {                   
     tone(pin, note);                              
     delay(duree);
     noTone(pin); 
