@@ -77,7 +77,7 @@ void loop() {
     else if (message == choix[13]) { chansons.BarbieGirl(); }
     else if (message == choix[14]) { chansons.HappyBirthday(); }
     else if (message == choix[15]) { chansons.Greensleaves(); }
-    else if (message == choix[15]) { chansons.Bond(); }
+    else if (message == choix[16]) { chansons.Bond(); }
     else if (message == choix[17]) { chansons.Alerte(); }    
     else Serial.println("Ce n'est pas un choix valide !!!");
   }
