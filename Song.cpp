@@ -9,10 +9,10 @@ Song::Song(int pin) {
 
 // la fonction qui joue les chansons
 void Song::Song::beep( int note, int duree ) {                   
-    tone(pin, note, duree);                              
+    tone(pin, note);                              
     delay(duree);
     noTone(pin); 
-    delay(50);
+    delay(duree*0.25);
 }
 
 ////////////////////////// Les chansons ////////////////////////
