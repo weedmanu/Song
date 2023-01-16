@@ -1,5 +1,5 @@
-#ifndef SONG_H
-#define SONG_H
+#ifndef BRUM_H
+#define BRUM_H
 
 #include <Arduino.h>
 #include "Notes.h"
