@@ -1186,5 +1186,101 @@ void Song::Bond() {
 }
 
 
+void Song::JingleBell() {
+  beep(NOTE_E5, 250); 
+  beep(NOTE_E5, 250);
+  beep(NOTE_E5, 500);
+  delay(200);
+  beep(NOTE_E5, 250);
+  beep(NOTE_E5, 250);
+  beep(NOTE_E5, 500);
+  delay(200);
+  beep(NOTE_E5, 250);
+  beep(NOTE_G5, 250);
+  beep(NOTE_C5, 250);
+  beep(NOTE_D5, 250);
+  beep(NOTE_E5, 900);
+  delay(200);
+  beep(NOTE_F5, 250);
+  beep(NOTE_F5, 250);
+  beep(NOTE_F5, 300);
+  beep(NOTE_F5, 250);
+  beep(NOTE_F5, 250);
+  beep(NOTE_E5, 250);
+  beep(NOTE_E5, 300);
+  beep(NOTE_E5, 125);
+  beep(NOTE_E5, 125);
+  beep(NOTE_E5, 250);
+  beep(NOTE_D5, 250); 
+  beep(NOTE_D5, 250);
+  beep(NOTE_E5, 250);
+  beep(NOTE_D5, 500);
+  beep(NOTE_G5, 500);
+  compteur = 0;
+}
+
+void Song::MerryChristmas() {
+  beep(NOTE_B3, 250);
+  beep(NOTE_F4, 250);
+  beep(NOTE_F4, 125);
+  beep(NOTE_G4, 125);
+  beep(NOTE_F4, 125);
+  beep(NOTE_E4, 125);
+  beep(NOTE_D4, 250);
+  beep(NOTE_D4, 250);
+  beep(NOTE_D4, 250);
+  beep(NOTE_G4, 250);
+  beep(NOTE_G4, 125);
+  beep(NOTE_A4, 125);
+  beep(NOTE_G4, 125);
+  beep(NOTE_F4, 125);
+  beep(NOTE_E4, 250);
+  beep(NOTE_E4, 250);
+  beep(NOTE_E4, 250);
+  beep(NOTE_A4, 250);
+  beep(NOTE_A4, 125);
+  beep(NOTE_B4, 125);
+  beep(NOTE_A4, 125);
+  beep(NOTE_G4, 125);
+  beep(NOTE_F4, 250);
+  beep(NOTE_D4, 250);
+  beep(NOTE_B3, 125);
+  beep(NOTE_B3, 125);
+  beep(NOTE_D4, 250);
+  beep(NOTE_G4, 250);
+  beep(NOTE_E4, 250);
+  beep(NOTE_F4, 500);
+}
+
+void Song::SantaClaus() {
+  beep(NOTE_G4, 125);
+  beep(NOTE_E4, 125);
+  beep(NOTE_F4, 125);
+  beep(NOTE_G4, 250);
+  beep(NOTE_G4, 250);
+  beep(NOTE_G4, 250);
+  beep(NOTE_A4, 125);
+  beep(NOTE_B4, 125);
+  beep(NOTE_C5, 250);
+  beep(NOTE_C5, 250);
+  beep(NOTE_C5, 250);
+  beep(NOTE_E4, 125);
+  beep(NOTE_F4, 125);
+  beep(NOTE_G4, 250);
+  beep(NOTE_G4, 250);
+  beep(NOTE_G4, 250);
+  beep(NOTE_A4, 125);
+  beep(NOTE_G4, 125);
+  beep(NOTE_F4, 250);
+  beep(NOTE_F4, 500);
+  beep(NOTE_E4, 250);
+  beep(NOTE_G4, 250);
+  beep(NOTE_C4, 250);
+  beep(NOTE_E4, 250);
+  beep(NOTE_D4, 250);
+  beep(NOTE_F4, 500);
+  beep(NOTE_B3, 250);
+  beep(NOTE_C4, 1000);
+}
 
 
