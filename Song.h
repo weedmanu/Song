@@ -1,24 +1,34 @@
 #ifndef SONG_H
 #define SONG_H
 
-void beep(int Buzzer, int note, int duree);     // les fonctions du cpp
+#include <Arduino.h>
+#include "Notes.h"
 
-void Alerte(int);
-void Starwars(int); 
-void GameOfThrones(int); 
-void HappyBirthday(int); 
-void HarryPotter(int); 
-void Pirate(int); 
-void mario(int); 
-void McGyver(int); 
-void StarWars2(int); 
-void BonBruteTruand(int); 
-void IndianaJones(int); 
-void twentyCentFox(int); 
-void looney(int); 
-void Entertainement(int); 
-void BarbieGirl(int); 
-void Greensleaves(int); 
-void Bond(int); 
+class Song { 
+  private:
+    int pin; 
+  public:    
+    Song(int pin);      
+    void beep(int note, int duree);
+    void Alerte();
+    void Starwars(); 
+    void GameOfThrones(); 
+    void HappyBirthday(); 
+    void HarryPotter(); 
+    void Pirate(); 
+    void mario(); 
+    void McGyver(); 
+    void StarWars2(); 
+    void BonBruteTruand(); 
+    void IndianaJones(); 
+    void twentyCentFox(); 
+    void looney(); 
+    void Entertainement(); 
+    void BarbieGirl(); 
+    void Greensleaves(); 
+    void Bond();    
+};
 
-#endif
+ 
+ 
+#endif::
