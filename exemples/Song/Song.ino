@@ -46,7 +46,6 @@ void setup() {
   Serial.println ("");    
 }
 
-
 void loop() {
   // si on reçoit quelques choses
   if (Serial.available() > 0) { 
