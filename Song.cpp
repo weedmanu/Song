@@ -1216,7 +1216,6 @@ void Song::JingleBell() {
   beep(NOTE_E5, 250);
   beep(NOTE_D5, 500);
   beep(NOTE_G5, 500);
-  compteur = 0;
 }
 
 void Song::MerryChristmas() {
