@@ -23,4 +23,6 @@ Liste des chansons :
 15. Greensleaves
 16. Bond
 17. Alerte 
-
+18. JingleBell
+19. MerryChristmas
+20. SantaClaus
