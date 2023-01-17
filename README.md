@@ -2,8 +2,12 @@
 
 **librairie compatible Arduino, ESP8266, ESP32.**
 
+Le constructeur : **Song XXX(le pin du buzzer)**
 
-Pour appeler les chansons, ex :  **Alerte(pin du buzzer);** ou **Bond(pin du buzzer);**
+. XXX               : donner un nom à votre objet
+. le pin du buzzer  : on declare le gpio du buzzer
+
+Pour appeler les chansons, ex :  **XXX.Starwars();** ou **XXX.Bond();**
 
 Liste des chansons :  
 1.  Starwars
