@@ -4,8 +4,8 @@
 
 Le constructeur : **Song XXX(le pin du buzzer)**
 
-. XXX               : donner un nom à votre objet
-. le pin du buzzer  : on declare le gpio du buzzer
+.   XXX               : donner un nom à votre objet  
+.   le pin du buzzer  : on declare le gpio du buzzer  
 
 Pour appeler les chansons, ex :  **XXX.Starwars();** ou **XXX.Bond();**
 
