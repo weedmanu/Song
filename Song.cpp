@@ -1185,7 +1185,7 @@ void Song::Bond() {
   beep(NOTE_GS6, 1125);
 }
 
-//******* Jingle Bell ********* 
+
 void Song::JingleBell() {
   beep(NOTE_E5, 250); 
   beep(NOTE_E5, 250);
@@ -1219,7 +1219,6 @@ void Song::JingleBell() {
   compteur = 0;
 }
 
-//******* Merry Christmas **********
 void Song::MerryChristmas() {
   beep(NOTE_B3, 250);
   beep(NOTE_F4, 250);
@@ -1253,7 +1252,6 @@ void Song::MerryChristmas() {
   beep(NOTE_F4, 500);
 }
 
-//******* Santa Claus **********
 void Song::SantaClaus() {
   beep(NOTE_G4, 125);
   beep(NOTE_E4, 125);
