@@ -6,11 +6,11 @@
 Song chansons(Buzzer_pin);
 
 // tableau choix 
-int choix []= {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q'};
+int choix []= {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T'};
 
 // tableau des noms des chansons
 String Nom_des_chansons []= {"Starwars","GameOfThrones","HappyBirthday","HarryPotter","Pirate","mario","McGyver","StarWars2","BonBruteTruand",
-                             "IndianaJones","twentyCentFox","looney","Entertainement","BarbieGirl","Greensleaves","Bond","Alerte"};
+                             "IndianaJones","twentyCentFox","looney","Entertainement","BarbieGirl","Greensleaves","Bond","Alerte","JingleBell","MerryChristmas","SantaClaus"};
 
 void setup() {
   // On démmarre la com série à 115200 bauds
@@ -36,7 +36,10 @@ void setup() {
   Serial.println ("N - BarbieGirl"); 
   Serial.println ("O - Greensleaves");
   Serial.println ("P - James Bond");
-  Serial.println ("Q - Alerte");   
+  Serial.println ("Q - Alerte");
+  Serial.println ("R - JingleBell");
+  Serial.println ("S - MerryChristmas");
+  Serial.println ("T - SantaClaus");     
   Serial.println ("*************************************");
   Serial.println ("");
   Serial.println ("quelle chanson voulez-vous entendre ?");
@@ -77,6 +80,9 @@ void loop() {
     else if (message == choix[13]) { chansons.BarbieGirl(); }
     else if (message == choix[14]) { chansons.Greensleaves(); }
     else if (message == choix[15]) { chansons.Bond(); }
-    else if (message == choix[16]) { chansons.Alerte(); }    
+    else if (message == choix[16]) { chansons.Alerte(); }  
+    else if (message == choix[17]) { chansons.JingleBell(); } 
+    else if (message == choix[18]) { chansons.MerryChristmas(); } 
+    else if (message == choix[19]) { chansons.SantaClaus(); }  
   }
 }
